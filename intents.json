@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "saludo",
+         "patterns": ["Hola", "¿Cómo estas?", "Holi","H","Hola", "hola", "Buenos días", "Buenas tardes", "Buenas noches"],
+         "responses": ["Hola", "Hola, ¡Que bueno volver a verte!", "Hola, ¿en qué puedo ayudarte?", "Hola, soy tu consultor virtual. ¿En qué puedo ayudarte?", "Bienvenido/a"],
+         "context": [""]
+        },
+        {"tag": "despedida",
+         "patterns": ["Adiós", "Chao"],
+         "responses": ["Adiós", "Hasta pronto", "No vemos después", "Nos vemos"],
+         "context": [""]
+        },
+        {"tag": "gracias",
+         "patterns": ["Gracias", "Muchas gracias", "Te agradezco", "Gracias, te pasaste", "Gracias por ayudarme"],
+         "responses": ["De nada", "Estamos aquí para servirte", "No hay problema, siempre recuerda tambien consultar con un especialista", "Que tengas un buen día", "¡Vuelve pronto!"],
+         "context": [""]
+        },
+        {"tag": "norespuesta",
+         "patterns": [],
+         "responses": ["Lo siento, no te entiendo", "Favor de dar más información", "No te entiendo, ¿puedes darme más información?"],
+         "context": [""]
+        },
+        {"tag": "opciones",
+         "patterns": ["¿En qué puedes ayudarme?", "¿Qué puedes hacer por mi?"],
+         "responses": ["Puedo responder algunas dudas sobre la diabetes y el pie diabético", "Puedo ofrecer algunas respuestas sobre los cuidados del pie diabético"],
+         "context": [""]
+        },
+        {"tag": "diabetes",
+         "patterns": ["¿Qué es la diabetes?", "diabetes?", "Información sobre la diabetes", "Definición de la diabetes"],
+         "responses": ["La diabetes es una afección prolongada en la que los niveles de glucosa (azúcar) en sangre son demasiado altos", "La diabetes mellitus es una enfermedad crónica en que se afecta la forma en que el cuerpo utiliza la glucosa en la sangre. Es un trastorno metabólico multisistémico que puede manifestarse por diferentes factores"],
+         "context": [""]
+        },
+        {"tag": "diabetes_tipo",
+         "patterns": ["¿Cuáles son los tipos de diabetes?", "Tipos de diabetes", "¿Cuántos tipos de diabetes hay?"],
+         "responses": ["Existen 3 tipos de diabetes: la tipo 1, tipo 2 y gestacional. ¿Sobre cuál quieres más información?"],
+         "context": [""]
+        },
+        {"tag": "diabetes_tipo_1",
+         "patterns": ["Diabetes tipo 1", "¿Qué es la diabetes tipo 1?", "Sobre diabetes tipo 1"],
+         "responses": ["Enfermedad crónica donde el cuerpo no produce o produce poca insulina, esto implica una administración obligatoria externa de insulina para controlar los niveles de azúcar en sangre."],
+         "context": [""]
+        },
+        {"tag": "diabetes_tipo_2",
+         "patterns": ["Diabetes tipo 2", "¿Qué es la diabetes tipo 2?", "Sobre diabetes tipo 2"],
+         "responses": ["Enfermedad crónica en la cual hay un alto nivel de azúcar (glucosa) en sangre, esto debido a la resistencia del cuerpo a la insulina o a la no eficacia que debería"],
+         "context": [""]
+        },
+        {"tag": "diabetes_sintomas",
+         "patterns": ["¿Cuáles son los principales sintomas de la diabetes?", "Sintomas de la diabetes", "¿Cómo saber si tengo diabetes?"],
+         "responses": ["Los principales síntomas de la diabetes son una mayor sed de lo habitual, orinar con frecuencia, perdida de peso involuntaria, fatiga, hambre extrema, cicatrización lenta de heridas, infecciones frecuentes, hormigueo o entumecimiento en manos o pies, irritabilidad o cambios de humor, entre otros sintomas. Si estas exeperimentando algunos de estos sintomas, consulta con un especialista para un diagnostico temprano y un tratamiento adecuado", "Dependiendo del nivel de glucosa en sangre, va a varir los sintomas en algunas personas"],
+         "context": [""]
+        },
+        {"tag": "diabetes_gestacional",
+         "patterns": ["Diabetes gestacional", "¿Qué es la diabetes gestacional?", "sobre diabetes gestacional"],
+         "responses": ["Es el nivel alto de azúcar en sangre que se presenta en cualquier momento durante el embarazo."],
+         "context": [""]
+        },
+        {"tag": "complicaciones_diabetes",
+         "patterns": ["¿Cuáles son las complicaciones de la diabetes?", "Complicaciones de la diabetes", "Problemas por la diabetes", "consecuencias de la diabetes"],
+         "responses": ["Algunas complicaciones de la diabetes incluyen dificultad para ver o problemas oculares, úlceras o infecciones que no pueden cicatrizar lo que puede derivar a una amputación de alguna extremidad, daño a los nervios en el cuerpo causando dolor, hormigueo, pérdida de la sensibilidad, problemas para digerir alimentos e incluso la disfunción eréctil. Tambien pueden presentarse problemas renales y debilitamiento del sistema inmunitario. "],
+         "context": [""]
+        },
+	{"tag": "pie diabetico",
+         "patterns": ["¿Qué es el pie diabetico?", "pie diabetico", "¿tengo pie diabetico?"],
+         "responses": ["El pie diabetico es una complicación tardía de la diabetes mellitus, donde la piel experimenta cambios en su funcionamiento y estructura. "],
+         "context": [""]
+        },
+	{"tag": "cuidados_pie_diabetico",
+         "patterns": ["¿Cuáles son los cuidados del pie diabetico?","¿Qué debo hacer si tengo pie diabetico?", "Tratamientos para el pie diabetico"],
+         "responses": ["Algunos cuidados para el pie diabetico incluyen la revisión de los pies todos los días, en busca de cortes enrojeciemintos u otros cambios en la piel y uñas del pie", "Procura realizar un autoexamen de tus pies todos los días, revisón de úlceras o llagas, cambios en la piel o coloración, hinchazón, dolor, infecciones o cambios en las uñas. También, limpieza diaria con agua tibia, procurando secarlos completamente para prevenir hongos y hidratandolos con cremas. Usar calzado adecuado, como zapatos cómodos y bien ahustados, junto con calcetines limpios y secos que no tengan costuras, suaves y menos propensos a causar irritación. Evita caminar descalzo y protege tus pies de temperaturas extremas. Es muy importante que visitar a tu médico o podólogo regularmente para chequeos preventivos."],
+         "context": [""]
+        }
+   ]
+}
